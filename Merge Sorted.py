@@ -6,6 +6,8 @@ class Solution:
         z=n
         while z:
             nums1.pop()
+            
+            nums1 = i
             z-=1
 
         for i in range(0,len(nums2)):
